@@ -15,3 +15,9 @@ git config --global branch.master.pushRemote no_push
 git config --global push.default current
 git config --global alias.uncommit 'reset HEAD^'
 ```
+
+# Python
+### Update pip
+```bash
+python -m pip install --upgrade pip --force-reinstall
+```
